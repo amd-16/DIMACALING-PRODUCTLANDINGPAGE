@@ -38,7 +38,10 @@ body {
 }
 
 #featured {
-  height: 50vh;
+  height: auto;
+  min-height: 50vh;
+  padding-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 #featured h3 {
@@ -50,10 +53,17 @@ body {
   font-weight: bold;
 }
 
+#carouselExampleFade .carousel-item {
+  height: 259px;
+  background-color: #0d1117;
+}
+
 #carouselExampleFade .carousel-item img {
   width: 390px;
   height: 259px;
   object-fit: cover;
+  display: block;
+  margin: 0 auto;
 }
 
 #shop-header {
@@ -120,4 +130,21 @@ footer {
 
 #name {
   font-size: 11px;
+}
+
+@media (max-width: 768px) {
+  #about .col.d-none.d-md-block {
+    display: block !important;
+    margin-bottom: 2rem;
+  }
+  
+  #carouselExampleFade .carousel-item {
+    height: 200px;
+  }
+  
+  #carouselExampleFade .carousel-item img {
+    width: 300px !important;
+    height: 200px !important;
+    object-fit: cover;
+  }
 }
