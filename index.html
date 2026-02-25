@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #004097;">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="images/logo.jpg" alt="Logo" width="70" class="me-2">
+      PlateStation
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#featured">Featured</a>
+        <a class="nav-link" href="#shop">Shop</a>
+      </div>
+    </div>
+  </div>
+</nav>
+    <section id="home">
+       <div class="container-fluid">
+            <div id="hero" class="row align-items-center py-5 text-center">
+                <div class="col col-md-12 text-md-center text-light">
+                    <h1 class="mb-3 gravitas-one-regular red-stroke">Welcome to PlateStation!</h1>
+                    <h5>Expand your plate collection and browse through our latest and powerful dishwashers.</h5>
+                    <div class="mt-5">
+                        <a href="#shop"><button type="button" class="btn btn-light">Explore Shop</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured">
+        <div class="container">
+        <div id="about" class="row">
+
+            <div class="my-lg-auto col col-lg-6 col-sm-12 text-light">
+                <h2 id="featured-header" class="badge rounded-pill text-primary bg-white border fs-2 py-2 px-4">Featured Products</h2>
+                <h3 class="gravitas-one-regular red-stroke mt-5">Why Choose the PlateStation?</h3>
+                <p>PlateStation products deliver powerful performance, a vast plate library, and immersive cleaning.
+                </p>
+                <p>
+                  Whether you're into exclusive chine, online washing, or 4K cleaning, PlateStation has you covered.
+                </p>
+            </div>
+
+            <div class="col col-lg-6 col-sm-12 d-none d-md-block my-5">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/product-1.jpg"
+                              width="390" height="259"
+                                class="d-block w-75 mx-auto rounded-5" alt="...">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="images/product-2.jpg"
+                                class="d-block w-75 mx-auto rounded-5" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/product-3.jpg"
+                            width="390" height="259"
+                                class="d-block w-75 mx-auto rounded-5" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon rounded-3" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon rounded-3" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="shop">
+      <div class="text-center">
+        <h2 id="shop-header" class="badge rounded-pill text-primary bg-white border fs-2 py-2 px-4">Shop</h2>
+      </div>
+
+      <div class="container my-5">
+  <div class="row g-4">
+    
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img class="card-img-top" src="images/product-1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">PlateStation 5</h5>
+          <p class="card-text">Experience an all-new generation of incredible PlateStation dishes.</p>
+          <p>P20,000.00</p>
+          <div class="text-center"><a href="#shop" class="btn btn-secondary">Add to Cart</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img class="card-img-top" src="images/product-2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">PlateStation 4</h5>
+          <p class="card-text">Experience a 4th generation of incredible PlateStation dishes.</p>
+          <p>P15,000.00</p>
+          <div class="text-center"><a href="#shop" class="btn btn-secondary">Add to Cart</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img class="card-img-top" src="images/product-3.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">PlateStation 3</h5>
+          <p class="card-text">Experience a 3rd generation of incredible PlateStation dishes.</p>
+          <p>P10,000.00</p>
+          <div class="text-center"><a href="#shop" class="btn btn-secondary">Add to Cart</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card h-100">
+        <img class="card-img-top" src="images/product-4.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">PlateStation 2</h5>
+          <p class="card-text">Experience a 2nd generation of incredible PlateStation dishes.</p>
+          <p>P5,000.00</p>
+          <div class="text-center"><a href="#shop" class="btn btn-secondary">Add to Cart</a></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+    </section>
+
+    <footer id="Contact">
+    <h5>Contact Me</h5>
+    <div id="social-links" class="d-flex align-items-center justify-content-center gap-3">
+      <p class="mb-0">+639090909</p>
+      <a href="https://github.com/amd-16" target="_blank"><img src="images/github-logo.png" alt="GitHub Profile" width="50" height="50"></a>
+      <a href="https://www.facebook.com/alihakim.dimacaling15" target="_blank"><img src="images/facebook-logo.png" alt="Facebook Profile" width="50" height="50"></a>
+      <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlLWMZLPzThrhlmknfcRpZQdPdbLrbZzHXNQfKTGwCfFKlpWCfBZtnLSQHXHLkptJmlJvB" target="_blank"><img src="images/gmail-logo.png" alt="Gmail" width="45" height="45"></a>
+    </div>
+  <a href="https://www.unitedresponse.org.uk/privacy-policy/" target="_blank" rel="noopener noreferrer">
+    Terms & Conditions and Privacy Policy
+  </a>
+  <p id="name">© Alihakim M. Dimacaling. 2026 All rights reserved.</p>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
